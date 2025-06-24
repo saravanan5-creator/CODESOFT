@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" href="./images/user-regular.svg" type="image/x-icon">
+
+</head>
+
+<body>
+  <header class="head">
+    <!-- navbar -->
+    <!-- Menu Toggle Button -->
+<button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+<!-- Navigation -->
+<nav id="sidebarNav">
+  <a href="#header">Home</a>
+  <a href="#skills">Skills</a>
+  <a href="#project">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+  
+
+
+    <!-- header -->
+    <div class="header" data-aos="fade-up" id="header">
+
+      <div>
+        <img src="./images/undraw_pic.svg" alt="profile">
+      </div>
+      <div class="header_content" data-aos="fade-up" data-aos-offset="400">
+        <div class="typing">
+          <h1>Hi, it's Saravanan S</h1>
+          <h3>i'm a web developer</h3>
+        </div>
+        <p>
+          I'm a passionate web developer focused on building responsive, user-friendly, and visually appealing
+          websites and applications.
+          I specialize in turning ideas into interactive digital experiences using modern tools like
+          <strong>React</strong>, <strong>HTML/CSS</strong>, and <strong>JavaScript</strong>.
+        </p>
+
+
+
+  </header>
+  <hr>
+  <!-- skills_section -->
+  <div class="skills_section" data-aos="fade-up" id="skills">
+
+    <h2>Skills</h2>
+    <h4>Frontend:</h4>
+    <p>HTML, CSS, JavaScript, React, Tailwind CSS, Responsive Design</p>
+    <h4>Backend:</h4>
+    <p> Node.js, Express.js, MongoDB, JWT Auth</p>
+    <h4>Tools:</h4>
+    <p> Git, GitHub, VS Code</p>
+    <h4>
+      Extras:</h4>
+    <p> Excel Analytics, OpenAI API Integration</p>
+
+
+
+
+  </div>
+  <hr>
+  <!-- project_section -->
+  <div class="project_section" data-aos="fade-up" id="project">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong><i class="fas fa-chart-line"></i>Excel Analytics Dashboard</strong><br>
+        <span>Upload and analyze Excel files with dynamic charts and AI-generated insights.</span><br>
+        <em>Tech: React, Node.js, Express, MongoDB, OpenAI API</em>
+      </li>
+      <li>
+        <strong><i class="fas fa-file-upload"></i>Smart File Uploader</strong><br>
+        <span>Simple drag-and-drop uploader with Excel file parsing and preview.</span><br>
+        <em>Tech: React, XLSX</em>
+      </li>
+      <li>
+        <strong><i class="fas fa-user-circle"></i>Portfolio Website</strong><br>
+        <span>Responsive personal website to showcase skills and projects.</span><br>
+        <em>Tech: HTML, CSS, JavaScript</em>
+      </li>
+      <li>
+        <strong><i class="fas fa-calculator"></i>Calculator App</strong><br>
+        <span>Clean and functional calculator for basic arithmetic operations.</span><br>
+        <em>Tech: HTML, CSS, JavaScript</em>
+      </li>
+      <li>
+        <strong><i class="fas fa-globe"></i>Landing Page</strong><br>
+        <span>Modern, responsive landing page with animations and CTAs.</span><br>
+        <em>Tech: React, Tailwind CSS, Framer Motion</em>
+      </li>
+    </ul>
+  </div>
+  <!-- resume_section -->
+  <div class="resume_section" id="project" data-aos="fade-up" >
+    <h2>Resume</h2>
+
+    <!-- View Resume  -->
+    <a href="Gray and White Simple Clean Resume.pdf" target="_blank" title="View Resume">
+      <button><i class="fa-regular fa-eye"></i> View Resume</button>
+    </a>
+
+    <!-- Download Resume -->
+    <a href="Gray and White Simple Clean Resume.pdf" download title="Download Resume">
+      <button>⬇️ Download Resume</button>
+    </a>
+  </div>
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <div class="contact-icons">
+      <a href="yourname@.com" title="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://github.com/saravanan5-creator/CODESOFT.git" target="_blank" title="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/saravanan-s-63366030b" target="_blank" title="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 @All rights reserved.</p>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      once: false,
+      mirror: true,
+      offset: 200,
+      duration: 1000,
+      delay: 100
+    });
+  </script>
+  <script>
+  function toggleMenu() {
+    const nav = document.getElementById('sidebarNav');
+    nav.classList.toggle('active');
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
